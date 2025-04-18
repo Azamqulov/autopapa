@@ -1,0 +1,89 @@
+Frontend: BOSH SAHIFA: Header | Shaxsiy kabinet | Qidiruv | Parametrlar bo'yicha qidiruv (kompaniya xizmatlari ro'yxatini o'z ichiga oladi) | Chegirmalar va aksiyalar | Avtomobillar vitrinasi: avtomobillar ro'yxati (tasodifiy va ustuvor) | Axborot bloki | Footer
+
+Header:
+    - Chap yuqori qismida ilova qilingan LOGO_AB.png faylidagi logotip joylashadi. Ranglar palitrasi saqlanib qolinadi.
+    - "Yetkazib berish mamlakati: Rossiya" degan yozuv olib tashlanadi.
+    - Ish vaqti ko'rsatiladi: 9:00 dan 21:00 gacha.
+    - Aloqa uchun telefon raqami qo'shiladi: +7(391)2287400.
+    - Manzil ko'rsatiladi: Krasnoyarsk, Metallurgov prospekti, 2r.
+    - Foydalanuvchilar uchun "Ro'yxatdan o'tish", "Kirish" va "Qo'llab-quvvatlash" bo'limlari joylashadi.
+
+Body:
+    - "Parametrlar bo'yicha qidiruv" blokidan oldin "Qo'ng'iroqqa buyurtma berish" tugmasi bo'ladi. Bu tugma bosilganda, "ISM", "Telefon", shaxsiy ma'lumotlarni qayta ishlashga rozilik belgisi va "Qo'ng'iroqqa buyurtma berish" tugmalari mavjud bo'lgan ariza oynasi ochiladi.
+    - Yuqori qismda aksiyalarni qo'shish imkoniyati saqlanib qolinadi.
+    - "CARFAX bo'yicha tekshirish" imkoniyati ham qoldiriladi.
+    - Qidiruv yonida "Sevimlilar" yorlig'i bo'ladi. Ro'yxatdan o'tmagan foydalanuvchi sevimlilarga avtomobil qo'shishga harakat qilsa, ro'yxatdan o'tish taklif qilinadi, so'ngra avtomobil sevimlilarga qo'shiladi. Ro'yxatdan o'tgan foydalanuvchining barcha sevimlilari shaxsiy kabinetdan chiqqandan keyin ham saqlanadi.
+    - Sayt bo'yicha qidiruv satri bo'ladi (masalan, qidiruv satrida "Corolla" so'zi kiritilishi mumkin).
+
+Blok: Parametrlar bo'yicha qidiruv:
+    - Funksionallik jihatidan bitta oynada taqdim etilgan, lekin vizual jihatdan 2 qismdan iborat bo'lishi mumkin.
+    - "Ko'rsatish (parametrlar to'ldirilishiga qarab o'zgarib turadigan topilgan avtomobillar soni)" tugmasi joylashadi.
+    - Quyida bosiladigan "Kerakli avtomobilni topmadingizmi?" yozuvi bo'ladi. Bu yozuv bosilganda, "ISM", "Telefon", shaxsiy ma'lumotlarni qayta ishlashga rozilik belgisi va "So'rovni yuborish" tugmasi mavjud bo'lgan oyna ochiladi.
+    - Quyidagi xizmatlar ro'yxati keltiriladi:
+        - Avtokredit (kredit kalkulyatori, anketa va hamkor banklarning ikonkalari bilan)
+        - Avtomobillarni tanlash, maslahat
+        - Komissiya
+        - Sotib olish
+        - Trade-In
+        - Bojxona rasmiylashtiruvi (shartlar va narx tarkibi haqida ma'lumot, kalkulyator bilan)
+        - Hisobga qo'yishda yordam
+        - OSAGO, KASKO rasmiylashtiruvi
+        - Yuridik yordam
+        - Davlat raqamlarini sotish
+        - Yo'lda yordam
+
+Blok: Chegirmalar va aksiyalar:
+    - "Bizning aksiyalar va chegirmalar xaridingizni yanada yoqimli qiladi! Avtosalonimizning mavjud aksiyalaridan birini tanlang va foydalaning..." kabi informatsion matn joylashadi.
+    - Quyida grafik dizayn va animatsiya imkoniyati bilan karusel yoki alohida oynalar shaklida aksiyalar va chegirmalar taqdim etiladi:
+        - 1-aksiya matni: "Do'stingizni olib keling va 50 ming rubl oling!" - batafsil (xizmatlardagi kabi forma bilan).
+        - 2-aksiya matni: "Sovg'a sifatida to'liq bak benzin!" - batafsil (xizmatlardagi kabi forma bilan).
+        - 3-aksiya matni: "Trade-in bo'yicha 100 ming rubl chegirma!" - batafsil (xizmatlardagi kabi forma bilan).
+        - 4-aksiya matni: "Avtokredit bo'yicha 100 ming rublgacha chegirma!" - batafsil (xizmatlardagi kabi forma bilan).
+
+Blok: Avtomobillar vitrinasi:
+    - "AvtoPapa" saytidagidek avtomobillar to'ri, xuddi shu saytdagi kabi parametrlar ko'rsatiladi.
+    - Fotosuratning yuqori o'ng qismida avtomobil joylashgan mamlakat bayrog'i ko'rsatiladi: Rossiya, Gruziya, Xitoy, AQSh, Yaponiya, Koreya, BAA.
+    - Oq fondagi avtomobillar - "Yangi takliflar" bo'limi. Saytning admin panelida "Yangi taklif" belgilangan avtomobillar assortimentidan har bir sahifa yangilanishida tasodifiy ravishda joylashtiriladi.
+    - Ko'k fondagi avtomobillar - "Ustuvor joylashtirish" bo'limi. Saytning admin panelida "Joylashtirish ustuvorligi" belgilangan avtomobillar ro'yxatidan har bir sahifa yangilanishida tasodifiy ravishda joylashtiriladi.
+    - Avtomobil kartochkasini ochmasdan turib, avtomobillarni sevimlilarga qo'shish imkoniyati bo'ladi.
+    - Avtomobil kartochkasi bosilganda, mijoz batafsil tavsifi bilan avtomobil sahifasiga o'tadi.
+
+Blok: Avtomobil markalari:
+    - "AvtoPapa" saytidagidek, avtomobil markasini tanlash va kartochkada model va parametrlarni tanlash imkoniyatini beradi.
+    - "AvtoPapa"dagi kabi "Mashhur markalar" va "Barchasi" bo'limlari bo'ladi. Saytning admin panelida "Mashhur avtomobil markasi" belgilash imkoniyati bo'ladi. Bu belgi bosh sahifadagi "Avtomobil markalari" bo'limida ushbu markaning ko'rinishini boshqarish uchun ishlatiladi.
+    - Avtomobil markasi tanlanganda, "AvtoPapa" misolidagi kabi bo'limga o'tiladi, shu jumladan "Qidiruv natijalarini chop etish" imkoniyati bo'ladi. Misol uchun, Ford markali barcha avtomobillarni qidirish sahifasi: https://www.ap.ge/ru/usd/search/ford.
+    - Saytdagi qidiruv imkoniyati, shuningdek, admin panel va shaxsiy kabinet orqali joylashtirilgan avtomobil haqidagi ma'lumotlarni kiritish quyidagilarni o'z ichiga oladi:
+        - Kengaytirilgan qidiruv:
+            - ASOSIY:
+                - Narxi: diapazon kiritiladi (masalan, 10000 - 50000).
+                - Marka: ochiladigan ro'yxatdan tanlanadi.
+                - Model: tanlangan markaga mos ochiladigan ro'yxatdan tanlanadi.
+                - Yangi e'lonlar: vaqt bo'yicha filtrlash (hammasi, soat, kun, 3 kun, hafta, oy).
+                - Yil: ochiladigan ro'yxatdan (1950 yildan hozirgi kungacha) tanlanadi.
+                - Yurish: ochiladigan ro'yxatdan (10000, 25000, 50000, 100000, 200000, 300000, 500000) tanlanadi.
+                - Kuzov turi: katakchalar bilan tanlanadi (sedan, xetchbek, yo'ltanlamas, miniven, universal, kabriolet, sportkar, pikap, mikroavtobus, avtobus, yuk mashinasi, tirkamalar, mototsikl, skuter, kvadrosikl, suv transporti, maxsus texnika).
+                - Joylashuvi: ochiladigan ro'yxatdan mamlakat tanlanadi (Rossiya, Gruziya, Xitoy, Yaponiya, Koreya, AQSh, BAA).
+                - Bojxona rasmiylashtirilganlik holati: katakchalar bilan tanlanadi (bojxona rasmiylashtirilgan, bojxona rasmiylashtirilmagan).
+                - Holati: katakchalar bilan tanlanadi (yangi, yurgan, ta'mirtalab, ehtiyot qismlar uchun).
+            - TEXNIK XUSUSIYATLAR:
+                - Dvigatel turi: katakchalar bilan tanlanadi (benzinli, dizel, gibrid, benzin/gaz, elektr, plagin gibrid, gaz).
+                - Hajmi: ochiladigan ro'yxatdan tanlanadi (0.7 dan 6.3 gacha).
+                - Quvvat: ochiladigan ro'yxatdan tanlanadi (50 dan 500 gacha).
+                - Uzatmalar qutisi: katakchalar bilan tanlanadi (mexanika, avtomat, robot, variator).
+                - G'ildiraklar: katakchalar bilan tanlanadi (old, orqa, to'liq).
+                - Rul: katakchalar bilan tanlanadi (chap, o'ng).
+            - SALON:
+                - Eshiklar soni: ochiladigan ro'yxatdan tanlanadi (2/3, 4/5).
+                - Material: ochiladigan ro'yxatdan tanlanadi (to'qimachilik, velur, teri, sun'iy teri, zamsh, vinil, ipak, kombinatsiyalangan, alkantara).
+                - O'rindiqlar soni: ochiladigan ro'yxatdan tanlanadi (2, 4-5, 6-8, 8 dan ortiq).
+                - Qo'shimcha funksiyalar: katakchalar bilan tanlanadi (oynalar, teridan yasalgan o'rindiqlar, o'rindiqlarni isitish, konditsioner, iqlim nazorati, lyuk, parktronik, navigatsiya, bort kompyuteri, kruiz nazorati).
+                - Tashqi ko'rinish: katakchalar bilan tanlanadi (yengil qotishma disklar, ksenon faralar).
+
+Takliflar:
+    - Avtomobillar haqida sharhlar, videolar, fotosuratlar, obzorlar chop etish imkoniyatini qo'shish. Buning uchun alohida yorliqlar bo'ladi.
+    - Avtomobil qo'shilganda va VIN raqami kiritilganda, modifikatsiya, yil, uzatmalar qutisi, komplektatsiya, rang va boshqa ma'lumotlarni avtomatik tarzda chiqarib berish funksiyasi bo'ladi.
+
+Footer:
+    - Saytning asosiy bo'limlariga havolalar: "Biz haqimizda", "Xaridorga masofaviy xizmat ko'rsatish", "Reklama", "QOIDALAR", "FAQ", "Sayt xaritasi", "Xato haqida xabar berish yoki shikoyat qilish".
+    - Qo'llab-quvvatlashning issiq liniyasi telefon raqami: +7(391)2287400.
+    - Mualliflik huquqi haqida ma'lumot: © 2025, «AutoБатя» — kompaniyaning rasmiy sayti. Barcha huquqlar himoyalangan.
